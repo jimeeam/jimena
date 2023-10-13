@@ -28,6 +28,7 @@ Partial Class Form2
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -86,12 +87,22 @@ Partial Class Form2
         Me.Button4.Text = "División"
         Me.Button4.UseVisualStyleBackColor = False
         '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(622, 359)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(75, 23)
+        Me.Button5.TabIndex = 5
+        Me.Button5.Text = "Regresar"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Beige
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -110,4 +121,5 @@ Partial Class Form2
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
 End Class

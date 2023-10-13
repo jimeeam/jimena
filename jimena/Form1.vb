@@ -1,7 +1,12 @@
 ﻿Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        If TextBox1.Text = "Waldir" And TextBox2.Text = "123" Then
 
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        If TextBox1.Text = "Waldir" And TextBox2.Text = "123" Then
+            Form2.Show()
+            Hide()
         End If
     End Sub
 End Class
